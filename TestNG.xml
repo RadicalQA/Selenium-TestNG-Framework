@@ -1,0 +1,12 @@
+<suite name="seleniumwithtestng" parallel="methods" thread-count="2">
+
+<listeners>
+		<listener class-name="utilities.BasicExtentReport" />
+	</listeners>
+	
+    <test name="loginTest">
+        <classes>
+            <class name="applicationTests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
